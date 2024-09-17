@@ -1,2 +1,2 @@
-# rapahelletseng.github.io
+# raphaelletseng.github.io
 Personal landing page
