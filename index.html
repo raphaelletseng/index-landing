@@ -19,25 +19,62 @@
                 font-family: 'Courier New', Courier, monospace;
                 color: blueviolet;
             }
+
+            .responsive-iframe-container {
+                position: relative;
+                overflow: hidden;
+                padding-top: 45%;
+            }
+
+            .responsive-iframe-container iframe {
+                position: absolute;
+                top: 0;
+                left: 10px;
+                bottom: 0;
+                width: 100%;
+            }
+
+            .row {
+                display: flex;
+            }
+
+            .column {
+                width: 100%;
+            }
         </style>
 
     </head>
-    <body style="max-width: 1000px">
-        <h1> Hello, i'm raPh. </h1>
-        <p> I develop software to help monitor <a href="https://www.ghgsat.com" rel="noopener" target="_blank">greenhouse gas emissions</a> when I'm not running around outside & climbing rocks. </p>
-        <p> I graduated from McGill University, where I studied mathematics and computer science. Since then, I've worked in business and technology consulting, 
-            been part of the <a href="https://www.ai4goodlab.com/" rel="noopener" target="_blank">AI4Good</a> Lab, and volunteered for organisations like <a href="https://futureearth.org/" rel="noopener" target="_blank">Future Earth</a>, <a href="https://sustainabilitydigitalage.org/" rel="noopener" target="_blank">Sustainability in the Digital Age</a>, and <a href="https://www.earthhero.org/" rel="noopener" target="_blank">Earth Hero</a>. 
-        </p>
-        <p> I enjoy writing code and working on projects that support social impact and the mitigation of climate change. </p>
-        <br/>
-        <p style="font-size: 12px">/\_/\<br/>> . <<br/>  </p>
-        <a href="mailto:raphaelletseng@gmail.com" rel="noopener" target="_blank">Get in touch</a>
-        <br/>
-        <a href="https://github.com/raphaelletseng" rel="noopener" target="_blank">Github</a>
-        <br/>
-        <a href="https://www.linkedin.com/in/rapha%C3%ABlletseng/" rel="noopener" target="_blank">Linkedin</a>
-        <p> Checkout some daily <a href="https://raphaelletseng.github.io/news_autoscraper/" rel="noopener" target="_blank">news headlines</a>.</p>
-            
+    <body>
+        <div class="intro-text" style = "max-width: 1000px">
+            <h1> Hello, i'm raPh. </h1>
+            <p> I develop software to help monitor <a href="https://www.ghgsat.com" rel="noopener" target="_blank">greenhouse gas emissions</a> when I'm not running around outside & climbing rocks. </p>
+            <p> I graduated from McGill University, where I studied mathematics and computer science. Since then, I've worked in business and technology consulting, 
+                been part of the <a href="https://www.ai4goodlab.com/" rel="noopener" target="_blank">AI4Good</a> Lab, and volunteered for organisations like <a href="https://futureearth.org/" rel="noopener" target="_blank">Future Earth</a>, <a href="https://sustainabilitydigitalage.org/" rel="noopener" target="_blank">Sustainability in the Digital Age</a>, and <a href="https://www.earthhero.org/" rel="noopener" target="_blank">Earth Hero</a>. 
+            </p>
+            <p> I enjoy writing code and working on projects that support social impact and the mitigation of climate change. </p>
+            <br/>
+            <p style="font-size: 12px">/\_/\<br/>> . <<br/>  </p>
+            <a href="mailto:raphaelletseng@gmail.com" rel="noopener" target="_blank">Get in touch</a>
+            <br/>
+            <a href="https://github.com/raphaelletseng" rel="noopener" target="_blank">Github</a>
+            <br/>
+            <a href="https://www.linkedin.com/in/rapha%C3%ABlletseng/" rel="noopener" target="_blank">Linkedin</a>
+        </div>
+        <br />
+        <div id="fun" class="row">
+            <div class="column">
+                <p> Checkout some daily <a href="https://github.com/raphaelletseng/news_autoscraper/" rel="noopener" target="_blank">news headlines</a>:</p>
+                <div class="responsive-iframe-container">
+                    <iframe src="https://raphaelletseng.github.io/news_autoscraper/" frameBorder="0" style="width: 100%; height: 450px"></iframe>
+                </div>
+            </div>
+            <div class="column">
+                <p> Or some <a href="https://github.com/raphaelletseng/mtlcafes/" rel="noopener" target="_blank">cafes I like</a>: </p>
+                <div class="responsive-iframe-container">
+                    <iframe src="https://raphaelletseng.github.io/mtlcafes/" frameBorder="0" style="width: 100%; height: 450px"></iframe>
+                </div>
+            </div>
+        </div>
         
     </body>
 </html>
