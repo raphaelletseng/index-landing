@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        majormono: ["Major Mono", "sans-serif"],
+        majormono: ["Major Mono Display", "sans-serif"],
         notosans: ["Noto Sans", "sans-serif"],
       }
     },

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
