@@ -566,6 +566,26 @@ video {
   width: 100%;
 }
 
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-64 {
+  max-width: 16rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .scroll-mt-40 {
   scroll-margin-top: 10rem;
 }
