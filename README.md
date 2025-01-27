@@ -1,6 +1,5 @@
 # raphaelletseng.github.io
-Personal landing page
-
+Personal landing index page to explore tailwind.
 
 To rebuild tailwind:
 ```
