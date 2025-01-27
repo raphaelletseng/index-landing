@@ -1,4 +1,4 @@
-# raphaelletseng.github.io
+# index-landing
 Personal landing index page to explore tailwind.
 
 To rebuild tailwind:
